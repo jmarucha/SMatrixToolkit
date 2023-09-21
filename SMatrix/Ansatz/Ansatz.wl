@@ -8,7 +8,6 @@ Reshape::ambigous = "Multiple ways of reshaping ansatz. Removing coefficient `1`
 
 
 IntegralObjects::usage = "IntegralObjects[ansatz] generates functions to be decoposed in partial waves for precomputation";
-CreateAnsatz::usage = "CreateAnsatz[{inParticle1,inParticle2}, {outParticle1, outParticle2}]";
 Crossing::usage = "Crossing[ansatz, crossing] creates amplitude ansatz with particles exchanged as given by crossing. Crossings are ginven as is two-way rules, for example \"I1\"<->\"O1\" swaps first in-particle with first out-particle.";
 
 Options[Reshape] = {KeepCoefficients -> {}};

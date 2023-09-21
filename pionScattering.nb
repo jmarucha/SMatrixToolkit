@@ -10,14 +10,22 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     16264,        416]
-NotebookOptionsPosition[     14493,        387]
-NotebookOutlinePosition[     14900,        403]
-CellTagsIndexPosition[     14857,        400]
+NotebookDataLength[    137342,       3417]
+NotebookOptionsPosition[    135085,       3380]
+NotebookOutlinePosition[    135490,       3396]
+CellTagsIndexPosition[    135447,       3393]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  RowBox[{"\"\<SMatrix`\>\"", ",", " ", 
+   RowBox[{"Path", " ", "->", " ", 
+    RowBox[{"NotebookDirectory", "[", "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8994452278810387`*^9, 3.8994452510978*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"9652cf16-f183-4e59-8182-82cf10e7ac79"],
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"(*", " ", "parameters", " ", "*)"}], "\[IndentingNewLine]", 
@@ -58,8 +66,7 @@ Cell[BoxData[
   3.902746044071015*^9, 3.902746045225417*^9}, {3.9027462131283517`*^9, 
   3.9027462293597574`*^9}},
  Background->RGBColor[1, 0.925, 0.925],
- CellLabel->
-  "In[203]:=",ExpressionUUID->"3765dd43-0645-4653-9a0e-38d3acc85457"],
+ CellLabel->"In[2]:=",ExpressionUUID->"3765dd43-0645-4653-9a0e-38d3acc85457"],
 
 Cell[BoxData[{
  RowBox[{
@@ -78,17 +85,7 @@ Cell[BoxData[{
   ";"}]}], "Input",
  CellChangeTimes->{{3.902746046296896*^9, 3.902746055009246*^9}, {
   3.902746170873844*^9, 3.9027462481334724`*^9}},
- CellLabel->
-  "In[210]:=",ExpressionUUID->"2f5e0825-6b95-4e3c-977e-923344814d11"],
-
-Cell[BoxData[
- RowBox[{"Get", "[", 
-  RowBox[{"\"\<SMatrix`\>\"", ",", " ", 
-   RowBox[{"Path", " ", "->", " ", 
-    RowBox[{"NotebookDirectory", "[", "]"}]}]}], "]"}]], "Input",
- CellChangeTimes->{{3.8994452278810387`*^9, 3.8994452510978*^9}},
- CellLabel->
-  "In[212]:=",ExpressionUUID->"9652cf16-f183-4e59-8182-82cf10e7ac79"],
+ CellLabel->"In[22]:=",ExpressionUUID->"2f5e0825-6b95-4e3c-977e-923344814d11"],
 
 Cell[BoxData[
  RowBox[{
@@ -100,8 +97,7 @@ Cell[BoxData[
      RowBox[{"Center", "->", 
       FractionBox["4", "3"]}]}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.8994453559252605`*^9, 3.8994453885368166`*^9}},
- CellLabel->
-  "In[213]:=",ExpressionUUID->"d60c5ecd-79ca-4040-8550-a495aeb9db50"],
+ CellLabel->"In[9]:=",ExpressionUUID->"d60c5ecd-79ca-4040-8550-a495aeb9db50"],
 
 Cell[BoxData[
  RowBox[{
@@ -128,8 +124,7 @@ Cell[BoxData[
   3.899445595152461*^9, 3.899445691840053*^9}, {3.8994458676413813`*^9, 
   3.8994458757677717`*^9}},
  Background->RGBColor[1, 0.9, 0.8],
- CellLabel->
-  "In[214]:=",ExpressionUUID->"5e949608-c322-4325-8544-66eed6ac9546"],
+ CellLabel->"In[10]:=",ExpressionUUID->"5e949608-c322-4325-8544-66eed6ac9546"],
 
 Cell[BoxData[{
  RowBox[{
@@ -147,8 +142,9 @@ Cell[BoxData[{
       RowBox[{"pion", ",", "pion"}], "}"}]}], "]"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.8994452604134192`*^9, 3.899445305325714*^9}, {
   3.899445847122135*^9, 3.8994458484663*^9}},
- CellLabel->
-  "In[215]:=",ExpressionUUID->"04fb05c0-62d3-4f2a-b4ad-d7d5cce52576"],
+ CellLabel->"In[11]:=",ExpressionUUID->"04fb05c0-62d3-4f2a-b4ad-d7d5cce52576"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"amplitude", " ", "=", " ", 
@@ -161,8 +157,1411 @@ Cell[BoxData[
  CellChangeTimes->{{3.8994453284912634`*^9, 3.8994453519033313`*^9}, {
   3.899445392030923*^9, 3.899445426198388*^9}, {3.899445770312908*^9, 
   3.899445779339553*^9}, {3.8994471004829907`*^9, 3.899447102877245*^9}},
- CellLabel->
-  "In[217]:=",ExpressionUUID->"9a98f6b6-6a1b-4152-89d6-69638ebcfa3b"],
+ CellLabel->"In[13]:=",ExpressionUUID->"9a98f6b6-6a1b-4152-89d6-69638ebcfa3b"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Ansatz\"\>", "\[SpanFromLeft]", "\[SpanFromLeft]"},
+    {
+     RowBox[{"ParticleContent", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}]}], "]"}], "\[SpanFromLeft]", 
+     "\[SpanFromLeft]"},
+    {"\<\"Free coefficients\"\>", "122", 
+     TagBox[
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "0"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "1"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "2"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "3"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "4"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "5"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "6"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "7"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "8"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "9"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "10"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "11"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "12"}], "]"}], ",", 
+        RowBox[{"\[LeftSkeleton]", "96", "\[RightSkeleton]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "7", ",", "11"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "7", ",", "12"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "7", ",", "13"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "8"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "9"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "10"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "11"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "12"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "9"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "10"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "11"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "10", ",", "10"}], "]"}], ",", "1"}], "}"}],
+      Short]},
+    {
+     TagBox[
+      RowBox[{
+       RowBox[{"\[Alpha]", "[", 
+        RowBox[{"0", ",", "0", ",", "0"}], "]"}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          StyleBox[
+           SubscriptBox["\[Rho]", "s"],
+           StripOnInput->False,
+           LineColor->RGBColor[0, 0, 1],
+           FrontFaceColor->RGBColor[0, 0, 1],
+           BackFaceColor->RGBColor[0, 0, 1],
+           GraphicsColor->RGBColor[0, 0, 1],
+           FontWeight->Bold,
+           FontColor->RGBColor[0, 0, 1]], "+", 
+          StyleBox[
+           SubscriptBox["\[Rho]", "t"],
+           StripOnInput->False,
+           LineColor->RGBColor[0.6, 0.4, 0.2],
+           FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+           BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+           GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+           FontWeight->Bold,
+           FontColor->RGBColor[0.6, 0.4, 0.2]], "+", 
+          StyleBox[
+           SubscriptBox["\[Rho]", "u"],
+           StripOnInput->False,
+           LineColor->RGBColor[0.5, 0, 0.5],
+           FrontFaceColor->RGBColor[0.5, 0, 0.5],
+           BackFaceColor->RGBColor[0.5, 0, 0.5],
+           GraphicsColor->RGBColor[0.5, 0, 0.5],
+           FontWeight->Bold,
+           FontColor->RGBColor[0.5, 0, 0.5]]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "1"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "2"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "2"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "2"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "2"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "3"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "3"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "3"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "3"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "4"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "4"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "4"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "4"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "5"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "5"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "5"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "5"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "6"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "6"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "6"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "6"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "7"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "7"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "7"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "7"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "8"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "8"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "9"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "9"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "9"}], "]"}]}], "+", 
+       RowBox[{"\[LeftSkeleton]", "102", "\[RightSkeleton]"}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "8"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "9"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "10"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "11"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "11"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "11"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "11"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "12"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "12"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "12"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "12"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "12"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "12"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "12"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "9"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "10"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "11"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "11"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "11"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "11"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "10", ",", "10"}], "]"}]}]}],
+      Short[#, 4]& ], "\[SpanFromLeft]", "\[SpanFromLeft]"}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{3.904304443087121*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"893d44d4-6628-49bd-afab-ef0aa63dcc15"]
+}, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"amplitude", " ", "+=", " ", 
@@ -172,12 +1571,1395 @@ Cell[BoxData[
     "+", 
    RowBox[{"ExtraParam", "[", 
     RowBox[{"particles", ",", " ", "xi", ",", " ", 
-     FractionBox["1", 
-      RowBox[{"1", "-", 
-       RowBox[{"Rho", "[", "s", "]"}]}]]}], "]"}]}]}]], "Input",
- CellChangeTimes->{{3.8994496544636097`*^9, 3.899449700170164*^9}},
- CellLabel->
-  "In[218]:=",ExpressionUUID->"0a87ddd9-02f8-4157-9931-0c4da6963ba0"],
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        RowBox[{"Rho", "[", "s", "]"}]}]], "-", "1"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.8994496544636097`*^9, 3.899449700170164*^9}, {
+  3.9036987674702396`*^9, 3.903698767798131*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"0a87ddd9-02f8-4157-9931-0c4da6963ba0"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Ansatz\"\>", "\[SpanFromLeft]", "\[SpanFromLeft]"},
+    {
+     RowBox[{"ParticleContent", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}]}], "]"}], "\[SpanFromLeft]", 
+     "\[SpanFromLeft]"},
+    {"\<\"Free coefficients\"\>", "124", 
+     TagBox[
+      RowBox[{"{", 
+       RowBox[{"1", ",", "g", ",", "xi", ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "0"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "1"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "2"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "3"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "4"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "5"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "6"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "7"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "8"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "9"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "10"}], "]"}], ",", 
+        RowBox[{"\[LeftSkeleton]", "96", "\[RightSkeleton]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "7", ",", "9"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "7", ",", "10"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "7", ",", "11"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "7", ",", "12"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "7", ",", "13"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "8"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "9"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "10"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "11"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "12"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "9"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "10"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "11"}], "]"}], ",", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "10", ",", "10"}], "]"}]}], "}"}],
+      Short]},
+    {
+     TagBox[
+      RowBox[{
+       RowBox[{"g", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", 
+           FractionBox["1", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", "s"}]]}], "-", 
+          FractionBox["1", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "t"}]], "-", 
+          FractionBox["1", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "u"}]]}], ")"}]}], "+", 
+       RowBox[{"xi", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "3"}], "+", 
+          FractionBox["1", 
+           RowBox[{"1", "-", 
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]]}]], "+", 
+          FractionBox["1", 
+           RowBox[{"1", "-", 
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]]}]], "+", 
+          FractionBox["1", 
+           RowBox[{"1", "-", 
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]]}]]}], ")"}]}], "+", 
+       RowBox[{"\[Alpha]", "[", 
+        RowBox[{"0", ",", "0", ",", "0"}], "]"}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          StyleBox[
+           SubscriptBox["\[Rho]", "s"],
+           StripOnInput->False,
+           LineColor->RGBColor[0, 0, 1],
+           FrontFaceColor->RGBColor[0, 0, 1],
+           BackFaceColor->RGBColor[0, 0, 1],
+           GraphicsColor->RGBColor[0, 0, 1],
+           FontWeight->Bold,
+           FontColor->RGBColor[0, 0, 1]], "+", 
+          StyleBox[
+           SubscriptBox["\[Rho]", "t"],
+           StripOnInput->False,
+           LineColor->RGBColor[0.6, 0.4, 0.2],
+           FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+           BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+           GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+           FontWeight->Bold,
+           FontColor->RGBColor[0.6, 0.4, 0.2]], "+", 
+          StyleBox[
+           SubscriptBox["\[Rho]", "u"],
+           StripOnInput->False,
+           LineColor->RGBColor[0.5, 0, 0.5],
+           FrontFaceColor->RGBColor[0.5, 0, 0.5],
+           BackFaceColor->RGBColor[0.5, 0, 0.5],
+           GraphicsColor->RGBColor[0.5, 0, 0.5],
+           FontWeight->Bold,
+           FontColor->RGBColor[0.5, 0, 0.5]]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "1"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "2"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "2"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "2"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "2"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "3"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "3"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "3"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "3"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "4"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "4"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "4"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "4"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "5"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "5"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "5"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "5"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "6"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "6"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "6"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "6"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "s"],
+            StripOnInput->False,
+            LineColor->RGBColor[0, 0, 1],
+            FrontFaceColor->RGBColor[0, 0, 1],
+            BackFaceColor->RGBColor[0, 0, 1],
+            GraphicsColor->RGBColor[0, 0, 1],
+            FontWeight->Bold,
+            FontColor->RGBColor[0, 0, 1]], "7"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "t"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.6, 0.4, 0.2],
+            FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+            BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+            GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.6, 0.4, 0.2]], "7"], "+", 
+          SuperscriptBox[
+           StyleBox[
+            SubscriptBox["\[Rho]", "u"],
+            StripOnInput->False,
+            LineColor->RGBColor[0.5, 0, 0.5],
+            FrontFaceColor->RGBColor[0.5, 0, 0.5],
+            BackFaceColor->RGBColor[0.5, 0, 0.5],
+            GraphicsColor->RGBColor[0.5, 0, 0.5],
+            FontWeight->Bold,
+            FontColor->RGBColor[0.5, 0, 0.5]], "7"]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "7"}], "]"}]}], "+", 
+       RowBox[{"\[LeftSkeleton]", "104", "\[RightSkeleton]"}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "8"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "9"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "10"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "11"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "11"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "11"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "11"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "12"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "12"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "12"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "12"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "8"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "12"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "8"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "12"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "8", ",", "12"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "9"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "10"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "11"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "11"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "9"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "11"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "9"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "11"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "9", ",", "11"}], "]"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "s"],
+             StripOnInput->False,
+             LineColor->RGBColor[0, 0, 1],
+             FrontFaceColor->RGBColor[0, 0, 1],
+             BackFaceColor->RGBColor[0, 0, 1],
+             GraphicsColor->RGBColor[0, 0, 1],
+             FontWeight->Bold,
+             FontColor->RGBColor[0, 0, 1]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}], "+", 
+          RowBox[{
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "t"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.6, 0.4, 0.2],
+             FrontFaceColor->RGBColor[0.6, 0.4, 0.2],
+             BackFaceColor->RGBColor[0.6, 0.4, 0.2],
+             GraphicsColor->RGBColor[0.6, 0.4, 0.2],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.6, 0.4, 0.2]], "10"], " ", 
+           SuperscriptBox[
+            StyleBox[
+             SubscriptBox["\[Rho]", "u"],
+             StripOnInput->False,
+             LineColor->RGBColor[0.5, 0, 0.5],
+             FrontFaceColor->RGBColor[0.5, 0, 0.5],
+             BackFaceColor->RGBColor[0.5, 0, 0.5],
+             GraphicsColor->RGBColor[0.5, 0, 0.5],
+             FontWeight->Bold,
+             FontColor->RGBColor[0.5, 0, 0.5]], "10"]}]}], ")"}], " ", 
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "10", ",", "10"}], "]"}]}]}],
+      Short[#, 4]& ], "\[SpanFromLeft]", "\[SpanFromLeft]"}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{3.9043044449367404`*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"f302da1b-9045-479f-af37-d2887ec8adf8"]
+}, Open  ]],
 
 Cell[BoxData[{
  RowBox[{
@@ -203,30 +2985,30 @@ Cell[BoxData[{
      RowBox[{"PrecisionGoal", "->", "$PrecisionGoal"}]}], 
     "\[IndentingNewLine]", "]"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.8998152550293236`*^9, 3.899815321681748*^9}, {
-  3.899815425025745*^9, 3.8998154686598773`*^9}},
- CellLabel->
-  "In[219]:=",ExpressionUUID->"6a655901-bce6-432d-acd0-8d477d9638ce"],
+   3.899815425025745*^9, 3.8998154686598773`*^9}, 3.903701302789234*^9, {
+   3.9037015273430543`*^9, 3.9037015295842314`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"6a655901-bce6-432d-acd0-8d477d9638ce"],
 
 Cell[BoxData[
- RowBox[{"(*", 
+ RowBox[{"(*", " ", 
   RowBox[{"PrecomputeGrid", "[", 
    RowBox[{"$GridDirectory", ",", "integrals", ",", "grid", ",", 
     RowBox[{"Range", "[", 
-     RowBox[{"0", ",", "$MaxSpin"}], "]"}], ",", "options"}], "]"}], 
+     RowBox[{"0", ",", "$MaxSpin"}], "]"}], ",", "options"}], "]"}], " ", 
   "*)"}]], "Input",
  CellChangeTimes->{{3.899815221851414*^9, 3.8998152469394484`*^9}, {
   3.899815283195037*^9, 3.8998152869426985`*^9}, {3.8998153872989483`*^9, 
-  3.8998153925002317`*^9}, {3.900075931164502*^9, 3.900075933863061*^9}},
- CellLabel->
-  "In[222]:=",ExpressionUUID->"9c18e9ab-739d-41cb-8974-52144a4c0beb"],
+  3.8998153925002317`*^9}, {3.900075931164502*^9, 3.900075933863061*^9}, {
+  3.9037016080638094`*^9, 3.903701609534996*^9}, {3.903945525727481*^9, 
+  3.903945530736579*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"9c18e9ab-739d-41cb-8974-52144a4c0beb"],
 
 Cell[BoxData[
  RowBox[{"data", " ", "=", " ", 
   RowBox[{"LoadData", "[", "$GridDirectory", "]"}]}]], "Input",
  CellChangeTimes->{{3.899880466550541*^9, 3.8998804776917915`*^9}, {
   3.901726162566167*^9, 3.901726164296878*^9}},
- CellLabel->
-  "In[223]:=",ExpressionUUID->"afe4fd8b-291b-40ae-8ea0-55a2534d53bd"],
+ CellLabel->"In[34]:=",ExpressionUUID->"afe4fd8b-291b-40ae-8ea0-55a2534d53bd"],
 
 Cell[BoxData[
  RowBox[{"matrixFunct", "=", " ", 
@@ -243,9 +3025,17 @@ Cell[BoxData[
        RowBox[{"1", "-", 
         RowBox[{"Re", "[", "#", "]"}]}]}
      }], ")"}], "&"}]}]], "Input",
- CellChangeTimes->{{3.900239573979526*^9, 3.900239626809122*^9}},
- CellLabel->
-  "In[224]:=",ExpressionUUID->"f1269aa0-2a5e-4594-b4a9-0359b47c8d4f"],
+ CellChangeTimes->{{3.900239573979526*^9, 3.900239626809122*^9}, {
+  3.9036958086522727`*^9, 3.903695941265328*^9}, {3.9036959931743746`*^9, 
+  3.903696000189245*^9}, {3.903697699495573*^9, 3.9036977444552627`*^9}, {
+  3.9037003524214067`*^9, 3.9037003575906396`*^9}, {3.9037007607083035`*^9, 
+  3.9037007623937073`*^9}, {3.903700919465291*^9, 3.903700923334444*^9}, {
+  3.9037014867046256`*^9, 3.9037014901994743`*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"f1269aa0-2a5e-4594-b4a9-0359b47c8d4f"],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{3.903700924137949*^9},
+ CellLabel->"In[36]:=",ExpressionUUID->"37d0d592-711c-42b3-a76a-0549888409f3"],
 
 Cell[BoxData[{
  RowBox[{
@@ -269,32 +3059,17 @@ Cell[BoxData[{
    RowBox[{"with", " ", "improvement", " ", "term"}], "*)"}]}]}], "Input",
  CellChangeTimes->{{3.9002395661509914`*^9, 3.900239566152809*^9}, {
   3.902745413801628*^9, 3.902745413993657*^9}},
- CellLabel->
-  "In[225]:=",ExpressionUUID->"33f7b6b6-27d0-4024-a9f8-489c01ac0ef1"],
+ CellLabel->"In[37]:=",ExpressionUUID->"33f7b6b6-27d0-4024-a9f8-489c01ac0ef1"],
 
 Cell[BoxData[
  RowBox[{"uMatrixCubic", "=", 
   RowBox[{"UnitarityMatrix", "[", 
-   RowBox[{"matrixFunct", ",", 
-    RowBox[{"amplitude", "~", "FixCoefficient", "~", 
-     RowBox[{"(", 
-      RowBox[{"xi", "==", "0"}], ")"}]}]}], "]"}]}]], "Input",
+   RowBox[{"matrixFunct", ",", "amplitude"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.9002395590597954`*^9, 3.900239559061792*^9}, 
-   3.902745411978479*^9},
- CellLabel->
-  "In[227]:=",ExpressionUUID->"c10d74b2-2cbc-41e7-8f9d-51d881aca1d7"],
+   3.902745411978479*^9, 3.9036909945393934`*^9},
+ CellLabel->"In[39]:=",ExpressionUUID->"c10d74b2-2cbc-41e7-8f9d-51d881aca1d7"],
 
 Cell[BoxData[
- RowBox[{"template", " ", "=", " ", 
-  RowBox[{"CreateProblemTemplate", "[", 
-   RowBox[{
-    RowBox[{"{", "uMatrixQuartic", "}"}], ",", " ", "data", ",", " ", 
-    RowBox[{"MaxN", "->", "2"}]}], "]"}]}]], "Input",
- CellChangeTimes->{{3.9027457446929975`*^9, 3.9027457459378834`*^9}},
- CellLabel->
-  "In[228]:=",ExpressionUUID->"afd8cfe7-b703-40a8-8907-247a19783dcd"],
-
-Cell[BoxData[{
  RowBox[{
   RowBox[{"Table", "[", "\[IndentingNewLine]", 
    RowBox[{
@@ -367,26 +3142,244 @@ Cell[BoxData[{
     "\[IndentingNewLine]", 
     RowBox[{"{", 
      RowBox[{"deltaJ", ",", 
-      RowBox[{"{", 
-       RowBox[{"4", ",", "8"}], "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", "12", "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
     RowBox[{"{", 
      RowBox[{"maxN", ",", 
       RowBox[{"{", 
-       RowBox[{"8", ",", " ", "12"}], "}"}]}], "}"}]}], "\[IndentingNewLine]",
-    "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"(*", " ", 
-   RowBox[{
-   "and", " ", "similar", " ", "for", " ", "rest", " ", "of", " ", "the", " ",
-     "experiments"}], " ", "*)"}]}]}], "Input",
+       RowBox[{
+       "8", ",", " ", "10", ",", " ", "12", ",", " ", "14", ",", " ", "16", 
+        ",", " ", "18"}], "}"}]}], "}"}]}], "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",
  CellChangeTimes->{{3.9027455094389477`*^9, 3.902745694799865*^9}, 
    3.902745732838401*^9, {3.902751705805622*^9, 3.9027517477998466`*^9}, {
-   3.902752121235859*^9, 
-   3.9027521617127733`*^9}},ExpressionUUID->"c28c9ac7-82c0-46b7-a433-\
-d136a23993a4"]
+   3.902752121235859*^9, 3.9027521617127733`*^9}, {3.9036907874192877`*^9, 
+   3.903690787907256*^9}, {3.9036909978540907`*^9, 3.9036910058954525`*^9}, {
+   3.9036910810063677`*^9, 3.9036910906434364`*^9}, {3.903697817867228*^9, 
+   3.90369781983855*^9}, 3.903698123274889*^9, {3.9036985962465434`*^9, 
+   3.9036986091954517`*^9}, {3.9036998852072263`*^9, 
+   3.9036998879592304`*^9}, {3.903945549710557*^9, 3.9039455659990234`*^9}, {
+   3.903954851768162*^9, 3.903954856342836*^9}, {3.9039557817739687`*^9, 
+   3.903955783760471*^9}},ExpressionUUID->"c28c9ac7-82c0-46b7-a433-\
+d136a23993a4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"template", " ", "=", " ", 
+      RowBox[{"CreateProblemTemplate", "[", 
+       RowBox[{
+        RowBox[{"{", "uMatrixQuarticImprov", "}"}], ",", " ", "data", ",", 
+        " ", 
+        RowBox[{"MaxN", "->", "maxN"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"baseName", "=", 
+      RowBox[{"\"\<quartic_coupling_imp_n_\>\"", "<>", 
+       RowBox[{"ToString", "[", "maxN", "]"}], "<>", "\"\<_j_\>\"", "<>", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"maxN", "+", "deltaJ"}], "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<Building \>\"", "<>", 
+       RowBox[{"ToString", "[", "maxN", "]"}], "<>", "\"\</\>\"", "<>", 
+       RowBox[{"ToString", "[", "deltaJ", "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"$ProblemDirectory", ",", 
+          RowBox[{"baseName", "<>", "\"\<.key.m\>\""}]}], "}"}], "]"}], ",", 
+       RowBox[{"LimitKeys", "[", 
+        RowBox[{
+         RowBox[{"template", "[", 
+          RowBox[{"[", 
+           RowBox[{"1", ",", "\"\<keys\>\""}], "]"}], "]"}], ",", " ", 
+         "maxN"}], "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"$ProblemDirectory", ",", 
+          RowBox[{"baseName", "<>", "\"\<.max.m\>\""}]}], "}"}], "]"}], ",", 
+       RowBox[{"BuildSMatrix", "[", 
+        RowBox[{"template", ",", " ", 
+         RowBox[{"Maximal", "[", 
+          RowBox[{"\[Alpha]", "[", 
+           RowBox[{"0", ",", "0", ",", "0"}], "]"}], "]"}], ",", " ", "data", 
+         ",", 
+         RowBox[{"MaxN", "->", "maxN"}], ",", 
+         RowBox[{"MaxJ", "->", 
+          RowBox[{"maxN", "+", "deltaJ"}]}]}], "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"$ProblemDirectory", ",", 
+          RowBox[{"baseName", "<>", "\"\<.min.m\>\""}]}], "}"}], "]"}], ",", 
+       RowBox[{"BuildSMatrix", "[", 
+        RowBox[{"template", ",", " ", 
+         RowBox[{"Minimal", "[", 
+          RowBox[{"\[Alpha]", "[", 
+           RowBox[{"0", ",", "0", ",", "0"}], "]"}], "]"}], ",", " ", "data", 
+         ",", 
+         RowBox[{"MaxN", "->", "maxN"}], ",", 
+         RowBox[{"MaxJ", "->", 
+          RowBox[{"maxN", "+", "deltaJ"}]}]}], "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<Finished \>\"", "<>", 
+       RowBox[{"ToString", "[", "maxN", "]"}], "<>", "\"\</\>\"", "<>", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"maxN", "+", "deltaJ"}], "]"}]}], "]"}], ";"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"deltaJ", ",", 
+      RowBox[{"{", "12", "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"maxN", ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "8", ",", " ", "10", ",", " ", "12", ",", " ", "14", ",", " ", "16", 
+        ",", " ", "18"}], "}"}]}], "}"}]}], "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",
+ CellChangeTimes->{
+  3.9036908086337605`*^9, {3.9036909238694224`*^9, 3.903690926008053*^9}, {
+   3.9036910923890276`*^9, 3.9036910925622444`*^9}, {3.9036911546646447`*^9, 
+   3.903691155520829*^9}, {3.9036987881730604`*^9, 3.903698792560499*^9}, 
+   3.903945574655903*^9, {3.9039550198642774`*^9, 3.9039550573080225`*^9}, 
+   3.903955797616287*^9},ExpressionUUID->"e98c8d52-370d-40bb-904d-\
+3a3ac84d2259"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"template", " ", "=", " ", 
+      RowBox[{"CreateProblemTemplate", "[", 
+       RowBox[{
+        RowBox[{"{", "uMatrixCubic", "}"}], ",", " ", "data", ",", " ", 
+        RowBox[{"MaxN", "->", "maxN"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"baseName", "=", 
+      RowBox[{"\"\<quartic_coupling_with_pole_n_\>\"", "<>", 
+       RowBox[{"ToString", "[", "maxN", "]"}], "<>", "\"\<_j_\>\"", "<>", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"maxN", "+", "deltaJ"}], "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<Building \>\"", "<>", 
+       RowBox[{"ToString", "[", "maxN", "]"}], "<>", "\"\</\>\"", "<>", 
+       RowBox[{"ToString", "[", "deltaJ", "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"$ProblemDirectory", ",", 
+          RowBox[{"baseName", "<>", "\"\<.key.m\>\""}]}], "}"}], "]"}], ",", 
+       RowBox[{"LimitKeys", "[", 
+        RowBox[{
+         RowBox[{"template", "[", 
+          RowBox[{"[", 
+           RowBox[{"1", ",", "\"\<keys\>\""}], "]"}], "]"}], ",", " ", 
+         "maxN"}], "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"$ProblemDirectory", ",", 
+          RowBox[{"baseName", "<>", "\"\<.max.m\>\""}]}], "}"}], "]"}], ",", 
+       RowBox[{"BuildSMatrix", "[", 
+        RowBox[{"template", ",", " ", 
+         RowBox[{"Maximal", "[", 
+          RowBox[{"\[Alpha]", "[", 
+           RowBox[{"0", ",", "0", ",", "0"}], "]"}], "]"}], ",", " ", "data", 
+         ",", 
+         RowBox[{"MaxN", "->", "maxN"}], ",", 
+         RowBox[{"MaxJ", "->", 
+          RowBox[{"maxN", "+", "deltaJ"}]}]}], "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"$ProblemDirectory", ",", 
+          RowBox[{"baseName", "<>", "\"\<.min.m\>\""}]}], "}"}], "]"}], ",", 
+       RowBox[{"BuildSMatrix", "[", 
+        RowBox[{"template", ",", " ", 
+         RowBox[{"Minimal", "[", 
+          RowBox[{"\[Alpha]", "[", 
+           RowBox[{"0", ",", "0", ",", "0"}], "]"}], "]"}], ",", " ", "data", 
+         ",", 
+         RowBox[{"MaxN", "->", "maxN"}], ",", 
+         RowBox[{"MaxJ", "->", 
+          RowBox[{"maxN", "+", "deltaJ"}]}]}], "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"baseName", "=", 
+      RowBox[{"\"\<cubic_coupling_n_\>\"", "<>", 
+       RowBox[{"ToString", "[", "maxN", "]"}], "<>", "\"\<_j_\>\"", "<>", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"maxN", "+", "deltaJ"}], "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<Building \>\"", "<>", 
+       RowBox[{"ToString", "[", "maxN", "]"}], "<>", "\"\</\>\"", "<>", 
+       RowBox[{"ToString", "[", "deltaJ", "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"$ProblemDirectory", ",", 
+          RowBox[{"baseName", "<>", "\"\<.key.m\>\""}]}], "}"}], "]"}], ",", 
+       RowBox[{"LimitKeys", "[", 
+        RowBox[{
+         RowBox[{"template", "[", 
+          RowBox[{"[", 
+           RowBox[{"1", ",", "\"\<keys\>\""}], "]"}], "]"}], ",", " ", 
+         "maxN"}], "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"$ProblemDirectory", ",", 
+          RowBox[{"baseName", "<>", "\"\<.max.m\>\""}]}], "}"}], "]"}], ",", 
+       RowBox[{"BuildSMatrix", "[", 
+        RowBox[{"template", ",", " ", 
+         RowBox[{"Maximal", "[", "g", "]"}], ",", " ", "data", ",", 
+         RowBox[{"MaxN", "->", "maxN"}], ",", 
+         RowBox[{"MaxJ", "->", 
+          RowBox[{"maxN", "+", "deltaJ"}]}]}], "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<Finished \>\"", "<>", 
+       RowBox[{"ToString", "[", "maxN", "]"}], "<>", "\"\</\>\"", "<>", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"maxN", "+", "deltaJ"}], "]"}]}], "]"}], ";"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"deltaJ", ",", 
+      RowBox[{"{", "12", "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"maxN", ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "8", ",", " ", "10", ",", " ", "12", ",", " ", "14", ",", " ", "16", 
+        ",", " ", "18"}], "}"}]}], "}"}]}], "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.9036907956071463`*^9, 3.903690833072288*^9}, {
+   3.903690940758577*^9, 3.9036909827508717`*^9}, 3.903691063939565*^9, {
+   3.9036910948064175`*^9, 3.903691097251343*^9}, {3.9036911586635437`*^9, 
+   3.903691159436251*^9}, {3.9036986885041356`*^9, 3.903698698615549*^9}, 
+   3.9039455780335293`*^9, 3.9039525703033943`*^9, {3.903954859187448*^9, 
+   3.9039548641730967`*^9}, {3.9039557785023265`*^9, 
+   3.9039557802207985`*^9}},ExpressionUUID->"6ea7c53f-a1c8-4fcb-8910-\
+4752a4e30ff0"]
 },
 WindowSize->{1906.5, 998.25},
-WindowMargins->{{0.75, Automatic}, {Automatic, 0.75}},
+WindowMargins->{{0, Automatic}, {-5.25, Automatic}},
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"234b3bd9-0dd2-455f-9c94-01dfaf37e6fd"
@@ -402,22 +3395,30 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 1719, 41, 178, "Input",ExpressionUUID->"3765dd43-0645-4653-9a0e-38d3acc85457"],
-Cell[2280, 63, 669, 18, 48, "Input",ExpressionUUID->"2f5e0825-6b95-4e3c-977e-923344814d11"],
-Cell[2952, 83, 327, 7, 28, "Input",ExpressionUUID->"9652cf16-f183-4e59-8182-82cf10e7ac79"],
-Cell[3282, 92, 423, 11, 45, "Input",ExpressionUUID->"d60c5ecd-79ca-4040-8550-a495aeb9db50"],
-Cell[3708, 105, 983, 26, 64, "Input",ExpressionUUID->"5e949608-c322-4325-8544-66eed6ac9546"],
-Cell[4694, 133, 673, 17, 48, "Input",ExpressionUUID->"04fb05c0-62d3-4f2a-b4ad-d7d5cce52576"],
-Cell[5370, 152, 664, 12, 86, "Input",ExpressionUUID->"9a98f6b6-6a1b-4152-89d6-69638ebcfa3b"],
-Cell[6037, 166, 524, 13, 47, "Input",ExpressionUUID->"0a87ddd9-02f8-4157-9931-0c4da6963ba0"],
-Cell[6564, 181, 1064, 26, 143, "Input",ExpressionUUID->"6a655901-bce6-432d-acd0-8d477d9638ce"],
-Cell[7631, 209, 547, 11, 28, "Input",ExpressionUUID->"9c18e9ab-739d-41cb-8974-52144a4c0beb"],
-Cell[8181, 222, 310, 6, 28, "Input",ExpressionUUID->"afe4fd8b-291b-40ae-8ea0-55a2534d53bd"],
-Cell[8494, 230, 556, 17, 43, "Input",ExpressionUUID->"f1269aa0-2a5e-4594-b4a9-0359b47c8d4f"],
-Cell[9053, 249, 969, 23, 48, "Input",ExpressionUUID->"33f7b6b6-27d0-4024-a9f8-489c01ac0ef1"],
-Cell[10025, 274, 424, 10, 28, "Input",ExpressionUUID->"c10d74b2-2cbc-41e7-8f9d-51d881aca1d7"],
-Cell[10452, 286, 381, 8, 28, "Input",ExpressionUUID->"afd8cfe7-b703-40a8-8907-247a19783dcd"],
-Cell[10836, 296, 3653, 89, 238, "Input",ExpressionUUID->"c28c9ac7-82c0-46b7-a433-d136a23993a4"]
+Cell[558, 20, 322, 6, 28, "Input",ExpressionUUID->"9652cf16-f183-4e59-8182-82cf10e7ac79"],
+Cell[883, 28, 1714, 40, 178, "Input",ExpressionUUID->"3765dd43-0645-4653-9a0e-38d3acc85457"],
+Cell[2600, 70, 665, 17, 48, "Input",ExpressionUUID->"2f5e0825-6b95-4e3c-977e-923344814d11"],
+Cell[3268, 89, 418, 10, 45, "Input",ExpressionUUID->"d60c5ecd-79ca-4040-8550-a495aeb9db50"],
+Cell[3689, 101, 979, 25, 64, "Input",ExpressionUUID->"5e949608-c322-4325-8544-66eed6ac9546"],
+Cell[4671, 128, 669, 16, 48, "Input",ExpressionUUID->"04fb05c0-62d3-4f2a-b4ad-d7d5cce52576"],
+Cell[CellGroupData[{
+Cell[5365, 148, 660, 11, 86, "Input",ExpressionUUID->"9a98f6b6-6a1b-4152-89d6-69638ebcfa3b"],
+Cell[6028, 161, 55871, 1399, 184, "Output",ExpressionUUID->"893d44d4-6628-49bd-afab-ef0aa63dcc15"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[61936, 1565, 600, 14, 47, "Input",ExpressionUUID->"0a87ddd9-02f8-4157-9931-0c4da6963ba0"],
+Cell[62539, 1581, 54997, 1379, 191, "Output",ExpressionUUID->"f302da1b-9045-479f-af37-d2887ec8adf8"]
+}, Open  ]],
+Cell[117551, 2963, 1137, 26, 143, "Input",ExpressionUUID->"6a655901-bce6-432d-acd0-8d477d9638ce"],
+Cell[118691, 2991, 653, 12, 28, "Input",ExpressionUUID->"9c18e9ab-739d-41cb-8974-52144a4c0beb"],
+Cell[119347, 3005, 306, 5, 28, "Input",ExpressionUUID->"afe4fd8b-291b-40ae-8ea0-55a2534d53bd"],
+Cell[119656, 3012, 907, 21, 43, "Input",ExpressionUUID->"f1269aa0-2a5e-4594-b4a9-0359b47c8d4f"],
+Cell[120566, 3035, 166, 2, 48, "Input",ExpressionUUID->"37d0d592-711c-42b3-a76a-0549888409f3"],
+Cell[120735, 3039, 965, 22, 48, "Input",ExpressionUUID->"33f7b6b6-27d0-4024-a9f8-489c01ac0ef1"],
+Cell[121703, 3063, 341, 6, 28, "Input",ExpressionUUID->"c10d74b2-2cbc-41e7-8f9d-51d881aca1d7"],
+Cell[122047, 3071, 4001, 91, 219, "Input",ExpressionUUID->"c28c9ac7-82c0-46b7-a433-d136a23993a4"],
+Cell[126051, 3164, 3692, 88, 219, "Input",ExpressionUUID->"e98c8d52-370d-40bb-904d-3a3ac84d2259"],
+Cell[129746, 3254, 5335, 124, 314, "Input",ExpressionUUID->"6ea7c53f-a1c8-4fcb-8910-4752a4e30ff0"]
 }
 ]
 *)

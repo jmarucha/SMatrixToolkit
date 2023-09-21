@@ -46,13 +46,14 @@ MandelstamToAngle[{{imass1_, imass2_},{omass1_, omass2_}}]:=Evaluate[{
 
 NormalizationOfPartialAmplitude[{{imass1_, imass2_},{omass1_, omass2_}}] := `NormalizationOfPartialAmplitude[{{imass1, imass2},{omass1, omass2}}]
 
-SymmetryFactor[symmetry_String]:= Switch[symmetry,
+`SymmetryFactor[symmetry_String]:= Switch[symmetry,
 	"Both", 1/2,
 	"In", Sqrt[2]/2,
 	"Out", Sqrt[2]/2,
 	"None", 1,
 	_, Message[smatrix::bad, symmetry];0]
 
+SymmetryFactor[symmetry_String] := `SymmetryFactor[symmetry]
 
 EndPrivateSection[];
 (* End[] *)

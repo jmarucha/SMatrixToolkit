@@ -1,0 +1,422 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15457,        412]
+NotebookOptionsPosition[     13999,        383]
+NotebookOutlinePosition[     14400,        399]
+CellTagsIndexPosition[     14357,        396]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  RowBox[{"\"\<SMatrix`\>\"", ",", " ", 
+   RowBox[{"Path", " ", "->", " ", 
+    RowBox[{"NotebookDirectory", "[", "]"}]}]}], "]"}]], "Input",
+ CellLabel->"In[33]:=",ExpressionUUID->"f55ca17e-f887-4fcf-a7cc-3f763e909297"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Rho", "[", "x_", "]"}], ":=", 
+   RowBox[{"RhoVariable", "[", 
+    RowBox[{"x", ",", " ", 
+     RowBox[{"Cut", "->", "4"}], ",", " ", 
+     RowBox[{"Center", "->", 
+      FractionBox["4", "3"]}]}], "]"}]}], ";"}]], "Input",
+ CellLabel->"In[34]:=",ExpressionUUID->"0b91f0a5-3293-47a5-8fb4-7af9cdb2682a"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"pion", " ", "=", " ", 
+   RowBox[{"Particle", "[", 
+    RowBox[{"\"\<\!\(\*SubscriptBox[\(\[Pi]\), \(0\)]\)\>\"", ",", " ", "1"}],
+     "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"particles", " ", "=", " ", 
+    RowBox[{"ParticleContent", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"pion", ",", "pion"}], "}"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"pion", ",", "pion"}], "}"}]}], "]"}]}], ";"}], 
+  RowBox[{"(*", " ", 
+   RowBox[{"just", " ", "fancy", " ", "printing"}], " ", 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Format", "[", 
+    RowBox[{"RhoVariable", "[", 
+     RowBox[{"x_", ",", 
+      RowBox[{"Cut", "\[Rule]", "4"}], ",", 
+      RowBox[{"Center", "\[Rule]", "y_"}]}], "]"}], "]"}], ":=", 
+   RowBox[{"Style", "[", 
+    RowBox[{
+     SubscriptBox["\[Rho]", "x"], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"Bold", ",", 
+       RowBox[{"Switch", "[", 
+        RowBox[{
+        "x", ",", "s", ",", "Blue", ",", "t", ",", "Brown", ",", "u", ",", 
+         "Purple"}], "]"}]}], "}"}]}], "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{3.9035351744078293`*^9},
+ CellLabel->"In[35]:=",ExpressionUUID->"e40fae28-33ee-4349-890c-3fbbea97e317"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"amplitude", " ", "=", " ", 
+  RowBox[{"RhoSeries", "[", "\[IndentingNewLine]", 
+   RowBox[{"particles", ",", "\[Alpha]", ",", "\[IndentingNewLine]", 
+    RowBox[{"Rho", "[", "s", "]"}], ",", " ", 
+    RowBox[{"Rho", "[", "t", "]"}], ",", " ", 
+    RowBox[{"Rho", "[", "u", "]"}], ",", "0"}], "\[IndentingNewLine]", 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.903535248550078*^9, 3.903535281353026*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"9c42688e-005b-415b-8913-b2bcc15dc99c"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Ansatz\"\>", "\[SpanFromLeft]", "\[SpanFromLeft]"},
+    {
+     RowBox[{"ParticleContent", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}]}], "]"}], "\[SpanFromLeft]", 
+     "\[SpanFromLeft]"},
+    {"\<\"Free coefficients\"\>", "2", 
+     TagBox[
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\[Alpha]", "[", 
+         RowBox[{"0", ",", "0", ",", "0"}], "]"}], ",", "1"}], "}"}],
+      Short]},
+    {
+     TagBox[
+      RowBox[{"\[Alpha]", "[", 
+       RowBox[{"0", ",", "0", ",", "0"}], "]"}],
+      Short[#, 4]& ], "\[SpanFromLeft]", "\[SpanFromLeft]"}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.903535158599016*^9, {3.9035352143275633`*^9, 3.9035352818527365`*^9}, 
+   3.9035353283582797`*^9, 3.9035354520611477`*^9, 3.903535712792178*^9, {
+   3.903535895259473*^9, 3.903535922924287*^9}},
+ CellLabel->"Out[38]=",ExpressionUUID->"54401b22-103b-49b2-a962-52e44306dd74"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"amplitude", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"Pole", "[", 
+    RowBox[{"particles", ",", " ", "g", ",", " ", "s", ",", " ", "1", ",", 
+     RowBox[{"Symmetry", "->", "\"\<none\>\""}]}], "]"}], "+", 
+   RowBox[{"ExtraParam", "[", 
+    RowBox[{"particles", ",", " ", "x", ",", " ", "2", ",", " ", 
+     RowBox[{"Symmetry", "->", "\"\<none\>\""}]}], 
+    "]"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"Reshape", "[", 
+  RowBox[{
+   RowBox[{"amplitude", "==", 
+    RowBox[{"2", "a"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"s", "->", "0"}], ",", " ", 
+     RowBox[{"t", "->", "0"}], ",", " ", 
+     RowBox[{"u", "->", "0"}]}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Reshape", "[", 
+  RowBox[{
+   RowBox[{"amplitude", "==", 
+    RowBox[{"2", "a"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"s", "->", "0"}], ",", " ", 
+     RowBox[{"t", "->", "0"}], ",", " ", 
+     RowBox[{"u", "->", "0"}]}], "}"}], ",", " ", 
+   RowBox[{"KeepCoefficients", "->", "g"}]}], "]"}]}], "Input",
+ CellChangeTimes->{
+  3.9035351585345078`*^9, 3.9035351973690147`*^9, {3.9035352845244226`*^9, 
+   3.9035352881408114`*^9}, {3.9035354124330425`*^9, 
+   3.9035354351084146`*^9}, {3.903535496101424*^9, 3.903535507427164*^9}, {
+   3.9035357201710596`*^9, 3.9035357203541136`*^9}, {3.9035359339339733`*^9, 
+   3.903535996920686*^9}, {3.9035360432529373`*^9, 3.9035360488102465`*^9}, {
+   3.9035361984319687`*^9, 3.903536204045384*^9}, 3.9035362350993896`*^9},
+ CellLabel->"In[61]:=",ExpressionUUID->"76e4db46-9f68-47c6-8699-eda3c8ee8dd9"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Ansatz\"\>", "\[SpanFromLeft]", "\[SpanFromLeft]"},
+    {
+     RowBox[{"ParticleContent", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}]}], "]"}], "\[SpanFromLeft]", 
+     "\[SpanFromLeft]"},
+    {"\<\"Free coefficients\"\>", "3", 
+     TagBox[
+      RowBox[{"{", 
+       RowBox[{"1", ",", "g", ",", "x"}], "}"}],
+      Short]},
+    {
+     TagBox[
+      RowBox[{
+       RowBox[{"-", 
+        FractionBox["g", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", "s"}]]}], "+", 
+       RowBox[{"2", " ", "x"}]}],
+      Short[#, 4]& ], "\[SpanFromLeft]", "\[SpanFromLeft]"}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{{3.9035352134296265`*^9, 3.90353522702439*^9}, 
+   3.9035352884762697`*^9, 3.9035353284618454`*^9, {3.903535420343131*^9, 
+   3.903535452208687*^9}, {3.903535497420622*^9, 3.903535508007903*^9}, {
+   3.903535712841728*^9, 3.9035357209664307`*^9}, {3.9035358953185596`*^9, 
+   3.90353595409447*^9}, {3.903535989161539*^9, 3.903535997709738*^9}, 
+   3.9035360492105904`*^9, 3.903536204616465*^9, 3.9035362358145714`*^9},
+ CellLabel->"Out[61]=",ExpressionUUID->"813e05a0-a5a7-48ff-8386-2d81e869f841"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Reshape", "ambigous", 
+   "\"Multiple ways of reshaping ansatz. Removing coefficient \
+\\!\\(\\*RowBox[{\\\"g\\\"}]\\) while keeping \\!\\(\\*RowBox[{\\\"{\\\", \
+\\\"x\\\", \\\"}\\\"}]\\)\"", 2, 62, 7, 33955211950704872747, "Local", 
+   "SMatrix`Reshape"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.9035362046244764`*^9, 3.903536235821176*^9},
+ CellLabel->
+  "During evaluation of \
+In[61]:=",ExpressionUUID->"3e222cfa-f5ed-4554-9875-92a10bcae3d0"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Ansatz\"\>", "\[SpanFromLeft]", "\[SpanFromLeft]"},
+    {
+     RowBox[{"ParticleContent", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}]}], "]"}], "\[SpanFromLeft]", 
+     "\[SpanFromLeft]"},
+    {"\<\"Free coefficients\"\>", "3", 
+     TagBox[
+      RowBox[{"{", 
+       RowBox[{"1", ",", "x", ",", "a"}], "}"}],
+      Short]},
+    {
+     TagBox[
+      RowBox[{
+       RowBox[{"a", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          FractionBox["1", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "s"}]]}], ")"}]}], "+", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"2", "+", 
+          FractionBox["2", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "s"}]]}], ")"}], " ", "x"}]}],
+      Short[#, 4]& ], "\[SpanFromLeft]", "\[SpanFromLeft]"}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{{3.9035352134296265`*^9, 3.90353522702439*^9}, 
+   3.9035352884762697`*^9, 3.9035353284618454`*^9, {3.903535420343131*^9, 
+   3.903535452208687*^9}, {3.903535497420622*^9, 3.903535508007903*^9}, {
+   3.903535712841728*^9, 3.9035357209664307`*^9}, {3.9035358953185596`*^9, 
+   3.90353595409447*^9}, {3.903535989161539*^9, 3.903535997709738*^9}, 
+   3.9035360492105904`*^9, 3.903536204616465*^9, 3.90353623583913*^9},
+ CellLabel->"Out[62]=",ExpressionUUID->"fa19d964-a9f6-41f8-9805-3ecc8f48dee1"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Ansatz\"\>", "\[SpanFromLeft]", "\[SpanFromLeft]"},
+    {
+     RowBox[{"ParticleContent", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}], ",", 
+         RowBox[{"Particle", "[", 
+          
+          RowBox[{"\<\"\\!\\(\\*SubscriptBox[\\(\[Pi]\\), \\(0\\)]\\)\"\>", 
+           ",", "1"}], "]"}]}], "}"}]}], "]"}], "\[SpanFromLeft]", 
+     "\[SpanFromLeft]"},
+    {"\<\"Free coefficients\"\>", "3", 
+     TagBox[
+      RowBox[{"{", 
+       RowBox[{"1", ",", "g", ",", "a"}], "}"}],
+      Short]},
+    {
+     TagBox[
+      RowBox[{
+       RowBox[{"g", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "1"}], "-", 
+          FractionBox["1", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "s"}]]}], ")"}]}], "+", 
+       RowBox[{"a", " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          FractionBox["1", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "s"}]]}], ")"}]}]}],
+      Short[#, 4]& ], "\[SpanFromLeft]", "\[SpanFromLeft]"}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{{3.9035352134296265`*^9, 3.90353522702439*^9}, 
+   3.9035352884762697`*^9, 3.9035353284618454`*^9, {3.903535420343131*^9, 
+   3.903535452208687*^9}, {3.903535497420622*^9, 3.903535508007903*^9}, {
+   3.903535712841728*^9, 3.9035357209664307`*^9}, {3.9035358953185596`*^9, 
+   3.90353595409447*^9}, {3.903535989161539*^9, 3.903535997709738*^9}, 
+   3.9035360492105904`*^9, 3.903536204616465*^9, 3.9035362358481045`*^9},
+ CellLabel->"Out[63]=",ExpressionUUID->"c8b24e45-702b-4c9b-a048-3b698006e9e8"]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{
+  3.9035362047819605`*^9},ExpressionUUID->"ed49f880-2e55-4046-8511-\
+c3d27dd20df5"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.9035355080460815`*^9, 3.903535509429398*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"ca822955-7558-40a8-ba58-16c4f8f6dfc3"]
+},
+WindowSize->{1022.25, 654},
+WindowMargins->{{0, Automatic}, {Automatic, 144}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c8089a72-f4f3-4904-8b4f-bb620d8a0bf3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 257, 5, 28, "Input",ExpressionUUID->"f55ca17e-f887-4fcf-a7cc-3f763e909297"],
+Cell[818, 27, 349, 9, 45, "Input",ExpressionUUID->"0b91f0a5-3293-47a5-8fb4-7af9cdb2682a"],
+Cell[1170, 38, 1261, 35, 67, "Input",ExpressionUUID->"e40fae28-33ee-4349-890c-3fbbea97e317"],
+Cell[CellGroupData[{
+Cell[2456, 77, 506, 9, 86, "Input",ExpressionUUID->"9c42688e-005b-415b-8913-b2bcc15dc99c"],
+Cell[2965, 88, 1854, 49, 91, "Output",ExpressionUUID->"54401b22-103b-49b2-a962-52e44306dd74"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4856, 142, 1568, 36, 67, "Input",ExpressionUUID->"76e4db46-9f68-47c6-8699-eda3c8ee8dd9"],
+Cell[6427, 180, 2086, 53, 98, "Output",ExpressionUUID->"813e05a0-a5a7-48ff-8386-2d81e869f841"],
+Cell[8516, 235, 502, 11, 28, "Message",ExpressionUUID->"3e222cfa-f5ed-4554-9875-92a10bcae3d0"],
+Cell[9021, 248, 2301, 60, 99, "Output",ExpressionUUID->"fa19d964-a9f6-41f8-9805-3ecc8f48dee1"],
+Cell[11325, 310, 2330, 61, 122, "Output",ExpressionUUID->"c8b24e45-702b-4c9b-a048-3b698006e9e8"]
+}, Open  ]],
+Cell[13670, 374, 149, 3, 48, "Input",ExpressionUUID->"ed49f880-2e55-4046-8511-c3d27dd20df5"],
+Cell[13822, 379, 173, 2, 28, "Input",ExpressionUUID->"ca822955-7558-40a8-ba58-16c4f8f6dfc3"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
