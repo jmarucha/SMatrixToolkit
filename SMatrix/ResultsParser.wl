@@ -1,9 +1,9 @@
-LoadDatapoint::usage = "LoadDatapoint[folder, variableNames]"
+LoadSDPBOutput::usage = "LoadDatapoint[folder, variableNames]"
 
 
 Begin["`Private`"]
 
-LoadDatapoint[folder_, variableNames_] := Module[{
+LoadSDPBOutput[folder_, variableNames_] := Module[{
     keys = Import[variableNames],
     yTxt = Import[FileNameJoin[{folder, "y.txt"}] ],
     outTxt = Import[FileNameJoin[{folder, "out.txt"}] ],
@@ -14,8 +14,5 @@ outAssoc = StringSplit[outTxt, "\n"]//
 yAssoc = AssociationThread[keys//Rest, StringSplit[yTxt, "\n"]//Rest//Interpreter["Number"] ];
 Return[Association[outAssoc]~Join~<|"vector"->yAssoc|> ]
 ]
-
-
-ParseNumber[str_]
 
 End[]

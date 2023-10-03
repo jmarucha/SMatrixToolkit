@@ -35,6 +35,8 @@ With[
   Get[FileNameJoin[{ApplicationDirectory, "ProblemBuilder.wl"}] ]
   Get[FileNameJoin[{ApplicationDirectory, "UnitarityMatrix.wl"}] ]
   Get[FileNameJoin[{ApplicationDirectory, "Formats.wl"}] ]
+
+  Get[FileNameJoin[{ApplicationDirectory, "ResultsParser.wl"}] ]
 ]
 
 EndPackage[];
