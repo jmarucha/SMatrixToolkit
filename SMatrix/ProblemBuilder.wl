@@ -11,6 +11,9 @@ Begin["`Private`"]
 
 ProblemTemplate[data_]["Templates"] := data["templates"];
 
+ProblemTemplate[data_]["Keys"] := data["keys"];
+ProblemTemplate[data_]["Keys", maxN_] := LimitKeys[data["keys"], maxN];
+
 CreateProblemTemplate[matrices:{_UnitarityMatrix..}, PrecomputedData[bindings_, data_], OptionsPattern[] ]:=
   Module[{
     keys = (Union @@ Through[matrices["Coefficients"] ]) ~ LimitKeys ~ OptionValue[MaxN]
