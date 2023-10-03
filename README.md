@@ -6,4 +6,4 @@ This is Mathematica package for setting up S-matrix bootstrap problems. To use t
 Get["SMatrix`", Path -> NotebookDirectory[]]
 ```
 
-For usage, see the included example.
+For usage, see the [included example](https://github.com/jmarucha/SMatrixToolkit/blob/main/pionScattering.nb).
